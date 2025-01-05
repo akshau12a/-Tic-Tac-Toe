@@ -2,7 +2,7 @@
 from gtts import gTTS
 
 # Updated explanation text for the Tic Tac Toe game code
-explanation_text = """
+"""
 This interactive Tic Tac Toe game is designed using Python's Tkinter library. 
 It includes a player versus computer mode and features animations, game state saving, and an intuitive graphical interface.
 
@@ -39,9 +39,4 @@ Here's how the program works:
 This project combines Python's GUI capabilities with logical game flow, creating an engaging Tic Tac Toe experience.
 """
 
-# Generate the updated voiceover using gTTS
-tts = gTTS(text=explanation_text, lang='en')
-voiceover_path_updated = "/mnt/data/Tic_Tac_Toe_Explanation_Updated.mp3"
-tts.save(voiceover_path_updated)
 
-voiceover_path_updated
